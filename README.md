@@ -5,7 +5,7 @@ An efficient Python tool for automated file transfer and categorization, featuri
 # File Transfer and Categorization Tool
 Overview
 --------
-This Python script is designed to transfer files from a source directory to a destination directory, categorizing them based on their file types. It will search every subdirectory in the source and create a SQL database entry for each file. It uses a SQLite database to track the progress of file transfers, ensuring resilience against interruptions such as crashes or manual stops.
+This Python script is designed to transfer files from a source directory to a destination directory, categorizing them based on their file types. It will search every subdirectory in the source and create a SQL database entry for each file. It uses a SQLite database to track the progress of file transfers, ensuring resilience against interruptions such as crashes or manual stops. Has been tested and been proven stable on inputs up tp 250GB.
 
 Key Features
 ------------
